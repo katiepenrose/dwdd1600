@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Get your next meal delivered by drone."/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="consult.css">
+    
+    <meta charset="UTF-8">
+    <title>Consult Services LLC.</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <h1>A Life-Changing Method for Everyone</h1>
+        <p>Invented by Marie Kondo, the KonMari Method is a simple but effective organizing system that uses a transformative criterion: choosing what sparks joy. With the Method, you will learn to listen to your inner voice and make space for the life you want.</p>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">The KonMari Method</a></li>
+            <li><a href="cleaning.html">Discover Decluttering Techniques and Tidying Tips</a></li>
+            <li><a href="getorganized.html">Get Organized</a></li>
+            <li><a href="consult.html">Request a Consult</a></li>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Request a Conuslt</h1>
+        <form method="get" class="myform" action="thanks.html">
+        <fieldset>
+            <legend>Customer Information</legend>
+            <label>First Name: <input type="text" name="first_name" required></label>
+            <label>Last Name: <input type="text" name="last_name" required></label>
+            <label>Cell Phone: <input type="tel" name="phone" required placeholder="999-555-1212"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Meet with a Specalist</legend>
+            <label><input type="radio" name="method" value="drone">Over the Phone (1hrs)</label>
+            <label><input type="radio" name="method" value="cycle">We Come to You (2hrs)</label>
+            <label><input type="radio" name="method" value="robot">You Come to Us (2hrs)</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Let's Chat</legend>
+            <label><input type="checkbox" name="kitchen" value="chosen">Kitchen</label>
+            <label><input type="checkbox" name="bedrooms" value="chosen">Bedrooms</label>
+            <label><input type="checkbox" name="sharedspaces" value="chosen">Shared Spaces</label>
+            <label><input type="checkbox" name="outdoor" value="chosen">Outdoor</label>
+
+            <label>Preferred Contact Time 
+                <select name="time">
+                    <option value="none">Select a Time</option>>
+                    <option value="morning">Between 7:00am - 11:00am</option>
+                    <option value="noon">Between 11:00am - 2:00pm</option>
+                    <option value="afternoon">Between 2:00pm - 5:00pm</option>
+                    <option value="evening">Between 5:00pm - 8:00pm</option>
+
+                </select>
+            </label>
+        </fieldset>
+        
+        <label>Anything else you would like us to know:<textarea></textarea></label>
+
+        <input type="submit" value="Send Consult Request">
+
+        </form>
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2021 &bull; Consult Services &bull; <a href="mailto:zen@gmail.com">Email Us</a> </p>
+    </footer>
+</body>
+</html>
