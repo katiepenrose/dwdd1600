@@ -1,0 +1,304 @@
+/* Prevent problems with different browsers */
+* {
+  box-sizing: border-box;
+}
+
+
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  
+  body{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  header {
+    background-color: #EFEDEE;
+    padding: 1rem .5vw; 
+    display: flex;
+    align-items: flex-end;
+  }
+
+  header p {
+    padding: .5rem 20px;
+  }
+
+  header .site-text {
+    padding-left: 4vw;
+  }
+
+  header h1 {
+    color: #47634D;
+    padding: .5rem 1px;
+  }
+
+/* Header section styling */
+  header span {
+    margin: 0;
+    color: #47634D;
+    letter-spacing: .5px;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  header img {
+    padding: .8rem 1vw;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .logo-header {
+    display: flex; /* Aligns logo and title in a row */
+    align-items: center; /* Centers them vertically */
+    gap: 10px; /* Adds spacing between logo and text */
+}
+
+.logo {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+}
+
+  /* Nav section styling */
+  nav {
+    background-color: #BBC7BB;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+  }
+
+  nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #47634D;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+  }
+
+  nav a:hover {
+    color: #EFEDEE; 
+  }
+
+   /* Main section styling */
+    main {
+      padding: 1rem 2vw;
+    }
+
+    main h1{
+      color: #476347; 
+    }
+
+    main h2{
+      color: #C9AA8D;
+      margin-bottom: .4rem;
+    }
+
+    main h3{
+      color: #47634D;
+      margin-bottom: .2rem;
+    }
+
+    main p {
+      color: #3D2A1F;
+      margin: 0;
+    }
+
+    main ol{
+      padding: .5rem 30px;
+      background-color: #EFEDEE;
+      font-size: 1rem;
+    }
+
+    main dl dt{
+      color: #47634D;
+      font-weight: 700;
+    }
+
+    main dl dd{
+      color: #3D2A1F;
+      margin: 0;
+    }
+
+    main dl dd{ 
+      color: #002;
+      font-size: .8rem;
+      margin-left: 20px;
+      margin-top: .3rem;
+      margin-bottom: .3rem;
+    }
+
+    main ul{
+      list-style-type: circle
+    }
+
+    main ul li{
+      line-height: 125%;
+      margin-bottom: .5rem;
+      font-size: .9rem;
+    }
+
+    main address { 
+      font-style: normal;
+      background-color: #EFEDEE;
+      width: 14rem;
+      padding: .7rem;
+      border: 2px solid #47634D;
+      border-radius: .5rem;
+    }
+
+    main a {
+      color: #47634D;
+    }
+
+    main a:hover {
+      color: rgb(187, 199, 187);
+    }
+
+    figure.wrapped {
+        width: 30%;
+        margin: 0 0 0 2%;
+        float: right;
+    }
+    
+    figure.wrapped img {
+        max-width: 100%;
+        overflow: hidden;
+        height: auto;
+    }
+    
+    figure.wrapped figcaption {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    div.picturegallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    div.picturegallery figure {
+        margin: .5rem 2% 0 0;
+    }
+    
+    div.picturegallery figcaption {
+        text-align: center;
+        font-size: .8rem;
+        color: #47634D;
+    }
+
+    .hero {
+      width: 100%;
+      margin: 0;
+  }
+  
+  .hero img {
+      width: 100%;
+      height: auto;
+  }
+
+  /* Footer section styling */
+
+  footer{
+    background-color: #EFEDEE;
+    text-align: center; 
+    color: #6a6a6a;
+    padding: .6rem 0;
+    font-size: 1rem;
+  }
+  nav .active {
+    background-color: #47634D;
+    color: white;
+  }
+
+  footer a {
+    color: #47634D
+  }
+   
+  footer a:hover {
+    color: rgb(187, 199, 187);
+  }
+
+
+  
+   /* PHONE MEDIA QUERY STARTS HERE */
+  @media only screen and (max-width: 600px) {
+    nav {
+      background-color: white;
+    }
+    nav ul {
+      display: block;
+      text-align: center;
+      padding: 0;
+    }
+    nav ul li {
+      border-bottom: 1px solid #BBC7BB;
+    }
+  }
+
+  header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}
