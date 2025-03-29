@@ -1,0 +1,269 @@
+/* Prevent problems with different browsers */
+* {
+  box-sizing: border-box;
+}
+
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  
+  
+body{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  header {
+    background-color: #EFEDEE;
+    padding: 1rem .5vw; 
+    display: flex;
+    align-items: flex-end;
+  }
+
+  header p {
+    padding: .5rem 20px;
+  }
+
+  header .site-text {
+    padding-left: 4vw;
+  }
+
+  header h1 {
+    color: #47634D;
+    padding: .5rem 1px;
+  }
+
+/* Header section styling */
+  header span {
+    margin: 0;
+    color: #47634D;
+    letter-spacing: .5px;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  .logo-header {
+    display: flex; /* Aligns logo and title in a row */
+    align-items: center; /* Centers them vertically */
+    gap: 10px; /* Adds spacing between logo and text */
+}
+
+.logo {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+}
+
+/* navigation stuff here */
+nav {
+  background-color: #BBC7BB;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 1 2vw;
+  margin: 0;
+  display: flex;
+}
+
+nav a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #47634D;
+  font-weight: 700;
+  display: block;
+  padding: .83rem 2rem;
+}
+
+nav a:hover {
+  color: #EFEDEE; 
+}
+
+
+
+/* main stuff here */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #C9AA8D;
+    font-size: 2.5rem;
+    margin: .5rem 0 .8rem 0;
+}
+main h2 {
+    color: #5c3a2e;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #47634D;
+    margin: 0 0 .8rem 0;
+    line-height: 150%
+}
+main a {
+    color: #3D2A1F;
+}
+
+.wrapimage {
+    width: 50%;
+    margin: 0;
+    float: right;
+    margin-left: 2vw;
+}
+.wrapimage img {
+    width: 100%;
+    height: auto;
+}
+.wrapimage figcaption {
+    text-align: center;
+    font-size: .8rem;
+}
+
+/* Form styling stuff here */
+
+.myform fieldset {
+    border: 1px solid black; 
+    border-radius: .8rem;
+    margin-bottom: 1rem;
+}
+
+.myform legend { 
+    color: #47634D; 
+    font-size: .8rem;
+}
+
+.myform label, select, [type=text], [type=tel], [type=email], textarea { 
+    display: block;
+}
+
+.myform label {
+    margin: .5rem;
+}
+
+.myform [type=text], [type=tel], [type=email], textarea, select {
+    border: 1px solid #888;
+    padding: .3rem;
+    width: 250px; 
+    border-radius: .3rem;
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+}
+
+.myform textarea {
+    height: 6rem;
+}
+
+.myform :required {
+    background-color: #BBC7BB;
+}
+
+.myform [type=submit] {
+  background-color: #47634D;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px 0 0;
+  margin: 1rem 0 0 1vw;
+  cursor: pointer; /* Makes it clear it's clickable */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.myform [type=submit]:hover {
+  background-color: #BBC7BB; /* ligth green on hover */
+}
+
+
+/* footer stuff here */
+footer {
+    border-top: solid #ccc 2px;
+    text-align: center;
+    color: #3D2A1F;
+    font-size: .7rem;
+    padding: 1rem 0;
+    clear: both;
+}
+footer a {
+    color: #3D2A1F;
+}
+
+nav .active {
+  background-color: #47634D;
+  color: white;
+}
+
+ /* PHONE MEDIA QUERY STARTS HERE */
+@media only screen and (max-width: 600px) {
+  nav {
+    background-color: white;
+  }
+  nav ul {
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
+  nav ul li {
+    border-bottom: 1px solid #BBC7BB;
+  }
+}
+
+header, nav, main, footer {
+  max-width: 64rem;
+  margin: 0 auto;
+}
